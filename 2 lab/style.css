@@ -1,0 +1,13 @@
+input {
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+}
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}

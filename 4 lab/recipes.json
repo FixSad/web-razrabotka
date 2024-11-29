@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Пирог с яблоками",
+        "cookingTime": 45,
+        "difficulty": "Средний"
+    },
+    {
+        "name": "Омлет",
+        "cookingTime": 10,
+        "difficulty": "Легкий"
+    },
+    {
+        "name": "Борщ",
+        "cookingTime": 60,
+        "difficulty": "Сложный"
+    }
+]

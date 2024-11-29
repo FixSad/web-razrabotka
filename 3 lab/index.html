@@ -1,0 +1,76 @@
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- 1 задание -->
+        <h1>Проверка на палиндром</h1>
+        <input type="text" id="inputString" placeholder="Введите строку" required>
+        <button onclick="checkPalindrome()">Проверить</button>
+        
+        <!-- 2 задание -->
+        <h1>Игра Угадайка</h1>
+        <div>
+            <label for="min">Введите a:</label>
+            <input type="number" id="min" required>
+            <label for="max">Введите b:</label>
+            <input type="number" id="max" required>
+            <button onclick="startGame()">Начать игру</button>
+        </div>
+    
+        <div id="gameArea" style="display:none;">
+            <h2>Угадайте число!</h2>
+            <input type="number" id="guess" placeholder="Ваше число" required>
+            <button onclick="makeGuess()">Угадать</button>
+            <div class="result" id="result"></div>
+            <div class="attempts" id="attempts"></div>
+        </div>
+
+        <!-- 3 задание -->
+        <h1>Определение отстающего ученика</h1>
+        <div>
+            <p>Пример: Алина, Маша, Кристина, Анастасия, Валерия, Игорь</p>
+            <p>Пример: 30-10-20 78-23-43 15-18-10 18-33-87 7-29-34 90-38-30</p>
+            <input type="text" id="names" placeholder="Введите имена учеников">
+            <br>
+            <input type="text" id="grades" placeholder="Введите оценки">
+            <br>
+            <button onclick="findLowestAverage()">Определить отстающего ученика</button>
+        </div>
+    
+        <!-- 4 задание -->
+        <h1>Определение низкокалорийного продукта</h1>
+        <div>
+            <p>Пример: Банан Мандарин Кефир Курочка</p>
+            <p>Пример: 120-130-190 156-182-190 120-145-90 1390-129-1023</p>
+            <input type="text" id="products" placeholder="Введите названия продуктов">
+            <br>
+            <input type="text" id="nutrients" placeholder="Введите белки, жиры и углеводы">
+            <br>
+            <button onclick="findLowestCalorieProduct()">Определить низкокалорийный продукт</button>
+        </div>
+
+        <!-- 5 задание -->
+        <h1>Анализ цен</h1>
+        <p>Пример: картошка:45,70,81; творог:20,80,54; молоко:23,56,87; бананы:290,76,98</p>
+        <textarea id="input" rows="10" cols="50"></textarea>
+        <button onclick="analyzePrices()">Анализировать</button>
+        
+        <!-- 6 задание -->
+        <h1>Анализ прибыли по товарам</h1>
+        <textarea id="inputArea" placeholder="Введите данные о продажах с новой строки"></textarea>
+        <button onclick="calculateProfit()">Анализировать</button>
+
+        <!-- 7 задание -->
+        <h1>Введите информацию о концертах:</h1>
+        <textarea id="concertsArea" rows="10" cols="50"></textarea>
+        <button onclick="processConcertsInput()">Обработать</button>
+        
+        <!-- 8 задание -->
+        <h1>Введите название города:</h1>
+        <input type="text" id="cityArea" placeholder="Введите город">
+        <button onclick="findCities()">Найти города</button>
+    </body>
+    <script src='main.js'></script>
+</html>

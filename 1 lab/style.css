@@ -1,0 +1,64 @@
+#kem{
+    position: absolute;
+    left: 120px;
+    top: 90px;
+}
+
+#date{
+    position: absolute;
+    left: 120px;
+    top: 173px;
+}
+
+#office-code{
+    position: absolute;
+    left: 310px;
+    top: 173px;
+}
+
+#name{
+    position: absolute;
+    left: 210px;
+    top: 480px;
+}
+
+#surname{
+    position: absolute;
+    left: 225px;
+    top: 420px;
+}
+
+#last-name{
+    position: absolute;
+    left: 225px;
+    top: 505px;
+}
+
+#sex{
+    position: absolute;
+    left: 210px;
+    top: 533px;
+}
+
+#birthday{
+    position: absolute;
+    left: 310px;
+    top: 533px;
+}
+
+/* Таблица */
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    width: 50px;
+}
+
+input {
+    margin: 10px;
+    padding: 5px;
+}

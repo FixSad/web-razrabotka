@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+         <!-- 1 задача -->
+        <h1>Проверка существования треугольника</h1>
+        <input type="number" id="sideA" placeholder="Сторона A" min="0" required>
+        <input type="number" id="sideB" placeholder="Сторона B" min="0" required>
+        <input type="number" id="sideC" placeholder="Сторона C" min="0" required>
+        <button onclick="checkTriangle()">Проверить</button>
+
+        <!-- 2 задача -->
+        <h1>Возведение числа в степень</h1>
+        <input type="number" id="inputY" placeholder="Введите Y" required>
+        <button onclick="calculate()">Вычислить</button>
+        
+        <!-- 3 задача -->
+        <h1>Управление банковским счетом</h1>
+        <div>
+            <input type="number" id="amount" placeholder="Сумма" required>
+            <select id="operation">
+                <option value="deposit">Внести на счет</option>
+                <option value="withdraw">Снять со счета</option>
+            </select>
+            <button onclick="performTransaction()">Выполнить</button>
+            <div 
+            >
+                <p>Баланс: </p>
+                <input id="blance" value="0" disabled>
+            </div>
+        </div>
+    </body>
+    <script src='main.js'></script>
+</html>
